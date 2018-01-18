@@ -1,6 +1,6 @@
 # Dot_Env
 
-This is Chef cookbook created for generating .env files with key,vals provided.
+This is a Chef cookbook created for generating .env files with key,vals provided.
 
 ### Platforms
 
@@ -27,7 +27,7 @@ Node attributes for this cookbook require `doc_root` for the path, `config` for 
   }
 ```
 
-Above json will create a .env file at `/path/to/app1` with following contents
+Above json will create `/path/to/app1/.env` file with following contents
 
 ```bash
 key1=val1
